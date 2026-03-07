@@ -1,6 +1,11 @@
+vim.lsp.enable 'lua_ls'
+vim.lsp.enable 'cmake'
+vim.lsp.enable 'clangd'
+
 require("config.keymaps")
 require("config.options")
---主题
+
+require("plugins.lsp")
 require("plugins.tokyonight")
 require("plugins.autopairs")
 require("plugins.bufferline")
@@ -8,9 +13,6 @@ require("plugins.lualine")
 require("plugins.surround")
 require("plugins.tree")
 require("plugins.noice")
-require("plugins.treesitter")
-require("plugins.lsp")
-require("plugins.cmp")
 require("plugins.smear-cursor")
-
-
+require("plugins.treesitter")
+require("plugins.blink")
