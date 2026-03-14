@@ -32,6 +32,10 @@
       "rev": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90",
       "src": "https://github.com/saadparwaiz1/cmp_luasnip"
     },
+    "flash.nvim": {
+      "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+      "src": "https://github.com/folke/flash.nvim"
+    },
     "inlay-hints.nvim": {
       "rev": "11be32be3761c6263df2311afb6baa0de0863967",
       "src": "https://github.com/MysticalDevil/inlay-hints.nvim"

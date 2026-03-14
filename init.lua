@@ -16,3 +16,5 @@ require("plugins.noice")
 require("plugins.smear-cursor")
 require("plugins.treesitter")
 require("plugins.blink")
+require("plugins.flash")
+
