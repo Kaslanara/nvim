@@ -1,5 +1,5 @@
 return {
   cmd = { 'clangd' },
-  filetypes = { 'cpp' },
+  filetypes = { "c", "cpp" }
 }
 
